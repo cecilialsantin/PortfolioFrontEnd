@@ -1,0 +1,29 @@
+{
+  "name": "portfoliofrontend",
+  "version": "1.0.0",
+  "description": "este repositorio es para el FrontEnd del Portfolio Un Portfolio Digital es una manera de presentar los mejores trabajos realizados de manera organizada y fácilmente accesible,  de forma que los futuros empleadores y colaboradores puedan ver rápidamente a lo que la persona se dedica. Contiene información sobre la persona y sus actividades",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecilialsantin/PortfolioFrontEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cecilialsantin/PortfolioFrontEnd/issues"
+  },
+  "homepage": "https://github.com/cecilialsantin/PortfolioFrontEnd#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1"
+  }
+}

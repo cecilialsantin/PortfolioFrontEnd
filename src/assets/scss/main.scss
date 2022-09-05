@@ -1,0 +1,77 @@
+
+header .container-fluid{
+    background-image: linear-gradient(to right, rgb(241, 241, 239,0.4), rgb(163, 177, 138,0.4));
+}
+.float-start img{
+    height:50px;
+    width:50px;
+}
+
+.nav-item img{
+    height:25px;
+    width:25px;
+}
+
+footer h6{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.miFoto{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container h6{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobremi{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonLogo{
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+
+.botonLogo:hover{
+    box-sizing: border-box;
+    box-shadow: 0 2px 6px 0 #f8e4d3;
+    border-radius: 30%;
+}
+
+.botonLogo img{
+    width: 40px;
+    height: 40px;
+}
+
+#sobremi{
+    background-image: url(../images/background.png);
+}
+
+.transbox{
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.9;
+}
+
+.card-body{
+    overflow-y: scroll;
+}
+
+.alto{
+    height: 300px;
+}
+
+@import "./abstracts/variables";
+
+@import "~bootstrap/scss/bootstrap";
