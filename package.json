@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/cecilialsantin/PortfolioFrontEnd/issues"
   },
-  "homepage": "https://github.com/cecilialsantin/PortfolioFrontEnd/src/index.html
+  "homepage": "https://github.com/cecilialsantin/PortfolioFrontEnd/src
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "gh-pages": "^4.0.0",
