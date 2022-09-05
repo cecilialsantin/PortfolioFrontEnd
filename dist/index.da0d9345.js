@@ -1,0 +1,2 @@
+const e=document.querySelector("#e1"),t=[""],n=document.querySelector("#template-p").content,o=document.createDocumentFragment();document.getElementById("btnEdit").addEventListener("click",(c=>{t.forEach((e=>{n.querySelector(".datosp").textContent=e;const t=n.cloneNode(!0);o.appendChild(t)})),e.appendChild(o),c.stopPropagation}));document.getElementById("btnBorrar1").addEventListener("click",(()=>{document.getElementsByClassName("comentario")[0].value=""}));
+//# sourceMappingURL=index.da0d9345.js.map
