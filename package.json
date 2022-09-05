@@ -5,7 +5,9 @@
   "source": "./src/index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build"
+    "build": "parcel build -d build --public-url /PortfolioFrontEnd/ src/index.html",
+    "start": "parcel serve -d dist src/index.html",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,9 +19,10 @@
   "bugs": {
     "url": "https://github.com/cecilialsantin/PortfolioFrontEnd/issues"
   },
-  "homepage": "https://github.com/cecilialsantin/PortfolioFrontEnd#readme",
+  "homepage": "https://github.com/cecilialsantin/PortfolioFrontEnd/src/index.html,
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.7.0"
   },
   "dependencies": {
